@@ -19,6 +19,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
 </head>
 <body>
 	
@@ -55,7 +56,7 @@
 					<h class="s1-txt1">Seconds</h>
 				</div>
 			</div>
-			<button onclick="window.location.href = 'https://www.instagram.com/namun.2020/';" class="flex-c-m s1-txt2 size3 how-btn"  data-toggle="modal">
+			<button class="flex-c-m s1-txt2 size3 how-btn"  data-toggle="modal" data-target="#subscribe">
 				Follow us!
 			</button>
 		</div>
@@ -67,8 +68,58 @@
 	</div>
 
 	<!-- Modal Login -->
+	<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document" data-dismiss="modal">
+			<div class="modal-subscribe where1-parent bg0 bor2 size4 p-t-54 p-b-100 p-l-15 p-r-15">
+				<button class="btn-close-modal how-btn2 fs-26 where1 trans-04">
+					<i class="zmdi zmdi-close"></i>
+				</button>
+
+				<div class="wsize1 m-lr-auto">
+					<h3 class="m1-txt1 txt-center p-b-36">
+						<span class="bor1 p-b-6">Follow</span>
+					</h3>
+
+					<p class="m1-txt2 txt-center p-b-40">
+						Follow Namun on social media!
+					</p>
+
+						<div class="w-full-xl">
+							<button onclick="window.location.href = 'https://www.instagram.com/namun.2020/';" class="flex-c-m s1-txt2 size5 how-btn1 trans-04">
+								Instagram
+							</button>
+						</div>
+						<br>
+
+						<div class="w-full">
+							<button onclick="window.location.href = 'https://m.facebook.com/NAMUN2020/';" class="flex-c-m s1-txt2 size5 how-btn1 trans-04">
+								Facebook
+							</button>
+						</div>
+						<br>
+
+						<div class="w-full">
+							<button onclick="window.location.href = 'https://twitter.com/20namun';" class="flex-c-m s1-txt2 size5 how-btn1 trans-04">
+								Twitter
+							</button>
+						</div>
+
+					<p class="s1-txt5 txt-center wsize2 m-lr-auto p-t-20">
+						Follow for recent updates!
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
 	
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
 <!--===============================================================================================-->
 <!--===============================================================================================-->
