@@ -70,12 +70,12 @@
 			
 		</head>	
 		<body>
-		
+
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSTM9Z5"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
-
+		
 			<header class="default-header"  style="position: -webkit-sticky; /* Safari */
 				position: sticky;
 				top: 0;">
@@ -621,11 +621,24 @@
 			<script src="js/main.js"></script>
 			<script src="js/classie.js"></script>
 			<script src="js/main4.js"></script>
+			
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179531216-1"></script>
+			<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-179531216-1');
+			</script>
+
 			<script src="js/countdown.js"></script>
-			<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
+			<script>
+				$('.js-tilt').tilt({
+					scale: 1.1
+				})
+			</script>
+			
+
 		</body>
 	</html>
