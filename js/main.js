@@ -121,5 +121,5 @@ $(document).ready(function(){
   }
 
  function whatsapp(){
-	 window.location.href("https://wa.me/message/POREZVBWV3UBI1");
+	 window.location.href('https://wa.me/message/POREZVBWV3UBI1');
  }
