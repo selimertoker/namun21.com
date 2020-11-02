@@ -119,3 +119,7 @@ $(document).ready(function(){
  function livechat() {
   window.open("https://e.widgetbot.io/channels/753881527921672223/755005929719595050", "_blank", "toolbar=no,scrollbars=no,resizable=yes,top=100,left=100,width=500,height=500");
   }
+
+ function whatsapp(){
+	 window.location.href("https://wa.link/w29w57");
+ }
