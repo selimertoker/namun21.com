@@ -2854,3 +2854,7 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+
+.starchecked {
+  color: orange;
+}
