@@ -21,3 +21,7 @@ function natolink(){
 function rusrevlink(){
     window.open("https://zoom.us/j/3565469193");
 }
+
+function openinglink(){
+    window.open("https://zoom.us/j/2074256064");
+}
