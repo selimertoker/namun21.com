@@ -29,3 +29,7 @@ function openinglink(){
 function coffeelink(){
     window.open("https://zoom.us/j/5649146423");
 }
+
+function drivelink(){
+    window.open("https://drive.google.com/drive/folders/1BQ04uLQ2g29I2pL7MbC9WXSkrSR5eEJL?usp=sharing");
+}
