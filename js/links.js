@@ -25,3 +25,7 @@ function rusrevlink(){
 function openinglink(){
     window.open("https://zoom.us/j/2074256064");
 }
+
+function coffeelink(){
+    window.open("https://zoom.us/j/5649146423");
+}
