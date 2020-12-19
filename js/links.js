@@ -42,6 +42,10 @@ function padletlink(){
     window.open("https://padlet.com/emirormanoglu/39jb70rj0lsfynug");
 }
 
-function netflixlink(){
-    window.open("https://discord.gg/nVNVUa2");
+function netflixlink1(){
+    window.open("https://www.tele.pe/netflix/215a61a168ce5b40?s=s168");
+}
+
+function netflixlink2(){
+    window.open("https://www.tele.pe/netflix/9095486bff73899b?s=s171");
 }
