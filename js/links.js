@@ -33,3 +33,7 @@ function coffeelink(){
 function drivelink(){
     window.open("https://drive.google.com/drive/folders/1BQ04uLQ2g29I2pL7MbC9WXSkrSR5eEJL?usp=sharing");
 }
+
+function amonguslink(){
+    window.open("https://calpardo.com/docswithoutpwd/Among%20Us.zip");
+}
