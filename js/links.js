@@ -43,7 +43,7 @@ function padletlink(){
 }
 
 function netflixlink1(){
-    window.open("https://www.tele.pe/netflix/215a61a168ce5b40?s=s168");
+    window.open("https://www.tele.pe/netflix/64532d525fce3c24?s=s160");
 }
 
 function netflixlink2(){
