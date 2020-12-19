@@ -41,3 +41,7 @@ function amonguslink(){
 function padletlink(){
     window.open("https://padlet.com/emirormanoglu/39jb70rj0lsfynug");
 }
+
+function netflixlink(){
+    window.open("https://discord.gg/nVNVUa2");
+}
