@@ -49,3 +49,7 @@ function netflixlink1(){
 function netflixlink2(){
     window.open("https://www.tele.pe/netflix/9095486bff73899b?s=s171");
 }
+
+function discordlink(){
+    window.open("https://discord.gg/nVNVUa2");
+}
