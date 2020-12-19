@@ -37,3 +37,7 @@ function drivelink(){
 function amonguslink(){
     window.open("https://calpardo.com/docswithoutpwd/Among%20Us.zip");
 }
+
+function padletlink(){
+    window.open("https://padlet.com/brlklc04/lmdfzekbnnd56yys");
+}
