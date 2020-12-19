@@ -39,5 +39,5 @@ function amonguslink(){
 }
 
 function padletlink(){
-    window.open("https://padlet.com/brlklc04/lmdfzekbnnd56yys");
+    window.open("https://padlet.com/emirormanoglu/39jb70rj0lsfynug");
 }
