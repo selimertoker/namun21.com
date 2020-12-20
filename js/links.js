@@ -39,7 +39,7 @@ function amonguslink(){
 }
 
 function padletlink(){
-    window.open("https://padlet.com/emirormanoglu/39jb70rj0lsfynug");
+    window.open("https://padlet.com/emirormanoglu/8aoebtdgt8q2lbsd");
 }
 
 function netflixlink1(){
