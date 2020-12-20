@@ -1,4 +1,4 @@
-const second = -1000,
+const second = 1000,
       minute = second * 60,
       hour = minute * 60,
       day = hour * 24;
