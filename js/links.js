@@ -53,3 +53,7 @@ function netflixlink2(){
 function discordlink(){
     window.open("https://discord.gg/nVNVUa2");
 }
+
+function journalslink(){
+    window.open("https://drive.google.com/drive/folders/1tuOe8QoPJJ8LGd9t_jPL0bYUGsagWGei");
+}
