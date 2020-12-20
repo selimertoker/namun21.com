@@ -1,5 +1,5 @@
 	<!DOCTYPE html>
-	<html lang="en" class="no-js" style="overflow-y:hidden;">
+	<html id="myDiv" lang="en" class="no-js" style="overflow-y:hidden;">
 	
 	<head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -85,7 +85,13 @@
 			<script data-ad-client="ca-pub-9061135122390856" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		
 			<link rel="stylesheet" type="text/css" href="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.css"/><script src="https://cdn.wpcc.io/lib/1.0.2/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#f6f6f6","text":"#000000","border":"#555555"},"button":{"background":"#128bc2","text":"#ffffff"}},"corners":"small","border":"thin","padding":"small","margin":"small","transparency":"5","fontsize":"small","content":{"message":"Official Namun 2020 website uses cookies to ensure you get the best experience on our website. 🍪","button":"Got It","href":"http://www.namun20.com/cookies.html"},"position":"bottom-right"})});</script>
-
+			
+			<style>
+			#myDiv {
+				    transition: background-color 2s;
+				}
+			</style>
+		
 		</head>	
 		<body>
 
@@ -192,6 +198,15 @@
 				$('.js-tilt').tilt({
 					scale: 1.1
 				})
+				function randomColor() {
+				    return '#'+ ('000000' + (Math.random()*0xFFFFFF<<0).toString(16)).slice(-6)
+				}
+
+				function setColor(){
+				    document.getElementById('myDiv').style.backgroundColor = randomColor();
+				    setTimeout(setColor, 2000);
+				}
+				setColor();
 			</script>
 			
 			<!-- start webpushr code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BFpmu518ylEhRwXyczD1mYa7qoP0rPQoV_liG2faBCLNg5Ojl8OU819hk06MtRhV9fREyrDohntOwPPBIFCr5Aw' });</script><!-- end webpushr code -->
