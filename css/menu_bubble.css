@@ -1,5 +1,5 @@
-html, 
-body,  
+html,
+body,
 
 .menu-container {
 	background: white;
@@ -11,7 +11,10 @@ body,
 
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-	color: #128bc2;
+	color: #273376;
+}
+.menu-selected {
+	color: #273376;
 }
 
 .content-wrap {
@@ -136,7 +139,7 @@ body,
 
 .icon-list a {
 	display: block;
-	padding: 0.8em;
+	padding: 0.5em;
 }
 
 .icon-list i {

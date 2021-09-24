@@ -4,8 +4,9 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #17b5fc;
@@ -118,12 +119,16 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
+  background: url(../img/elements/gold2.png)no-repeat top center;
+  background-size: cover;
   font-family: "Poppins", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
   font-weight: 600;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 
 .h1, .h2, .h3,
@@ -136,7 +141,7 @@ h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 36vw;
 }
 
 h2, .h2 {
@@ -564,6 +569,10 @@ td, th {
 
 .text-white {
   color: #fff;
+}
+
+.text-gold {
+  color: #FFD786;
 }
 
 .transition {
@@ -1946,9 +1955,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .p1-gradient-bg, .primary-btn, .banner-area, .cat-area .hb-facebook-inv:hover, .cat-area .hb-facebook-inv:hover::after, .cat-area .hb-facebook-inv:hover::before, .single-service:hover, .video-area .overlay-bg, .single-price:hover .bottom-sec, .single-price:hover .end-sec, .call-to-action-area, .footer-area .primary-btn, .footer-area .primary-btn:hover, .footer-social a:hover, .single-footer-widget .bb-btn, .generic-banner {
-  background-image: -moz-linear-gradient(0deg, #128bc2 0%, #17b5fc 100%);
-  background-image: -webkit-linear-gradient(0deg, #128bc2 0%, #17b5fc 100%);
-  background-image: -ms-linear-gradient(0deg, #128bc2 0%, #17b5fc 100%);
+  background: #131939;
 }
 
 .p1-gradient-color, .counter-left h2 {
@@ -1957,6 +1964,10 @@ h1, h2, h3, h4, h5, h6 {
   background: -ms-linear-gradient(0deg, #128bc2 0%, #17b5fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.table1 tr td i{
+  align-content: center;
 }
 
 .primary-btn {
@@ -2028,6 +2039,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .dropdown-item {
   font-size: 14px;
+	text-indent: 50px;
   width: auto !important;
   text-align: left;
 }
@@ -2108,7 +2120,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-left h1 {
-  color: #222;
   font-size: 60px;
   font-weight: 700;
   line-height: 1em;
@@ -2159,7 +2170,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-btn {
-  background-color: #fff;
+  background-color: #ffd786;
   padding: 8px 35px;
   font-weight: 600;
   color: #222;
