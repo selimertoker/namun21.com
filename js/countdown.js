@@ -1,9 +1,9 @@
-const second = -1000,
+const second = 1000,
       minute = second * 60,
       hour = minute * 60,
       day = hour * 24;
 
-let countDown = new Date('Dec 18, 2020 8:00:00').getTime(),
+let countDown = new Date('Dec 24, 2021 8:00:00').getTime(),
     x = setInterval(function() {    
 
       let now = new Date().getTime(),
