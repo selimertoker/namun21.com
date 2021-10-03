@@ -178,6 +178,12 @@ h6, .h6 {
   color: #222222;
 }
 
+.agentaItems {
+  background-color: #131939;
+  color: #FFFFFF;
+  text-align: center;
+}
+
 .goldcolor{
   background: url(../img/elements/gold2.png)no-repeat top center;
   background-size: cover;
