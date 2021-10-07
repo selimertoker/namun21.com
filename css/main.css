@@ -2207,12 +2207,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #222;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
-  border: 1px solid transparent;
+  border: 1px solid gold;
   border-radius: 20px;
 }
 
 .header-btn:hover {
-  border: 1px solid #fff;
+  border: 2px solid #96958f;
   background: transparent;
   color: #fff;
 }
