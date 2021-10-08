@@ -2212,8 +2212,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-btn:hover {
-  border: 2px solid #96958f;
-  background: #96958f;
+  border: 3px solid #96958f;
+  background: transparent;
   color: #fff;
 }
 
