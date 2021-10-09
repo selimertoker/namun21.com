@@ -7,7 +7,7 @@ let countDown = new Date('Dec 24, 2021 8:00:00').getTime(),
     x = setInterval(function() {    
 
       let now = new Date().getTime(),
-          distance = countDown - now;
+          distance = now - countDown;
 
       document.getElementById('days').innerText = Math.floor(distance / (day)),
         document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
