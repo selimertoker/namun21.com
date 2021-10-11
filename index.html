@@ -19,7 +19,6 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-WM5B6RR');</script>
 		<!-- End Google Tag Manager -->
-
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
@@ -284,14 +283,34 @@
 
 
 			<!-- Start Video Area -->
-			<!--<section class="video-area pt-40 pb-40">
-				<div class="overlay overlay-bg"></div>
+			<!-- API for Youtube player -->
+			<script>
+				// Load the IFrame Player API code asynchronously.
+				var tag = document.createElement('script');
+				tag.src = "https://www.youtube.com/player_api";
+				var firstScriptTag = document.getElementsByTagName('script')[0];
+				firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+				// Replace the 'ytplayer' element with an <iframe> and
+				// YouTube player after the API code downloads.
+				var player;
+				function onYouTubePlayerAPIReady() {
+					player = new YT.Player('ytplayer', {
+						height: '360',
+						width: '640',
+						videoId: 'E2lvD_PVB08'
+					});
+				}
+			</script>
+			<!-- End API for Youtube player -->
+			<section class="video-area pt-40 pb-40">
+				<h3 onselectstart="return false" class="h2 text-white" style="text-align:center;">How to apply</h3>
+				<br><br><br>
 				<div class="container">
 					<div class="video-content">
-						<a href="https://www.youtube.com/watch?v=dOzD-0iKJVA" class="play-btn"><img ondragstart="return false"  src="img/play-btn.png" alt=""></a>
+						<div id="ytplayer"></div>
 						<div class="video-desc">
-							<h3 onselectstart="return false" class="h2 text-white">Join the World's Heartbeat</h3>
-							<h4 onselectstart="return false" class="text-white">Watch our video!</h4>
+							<h4 onselectstart="return false" class="text-white">Join the World's Heartbeat</h4>
 						</div>
 					</div>
 				</div>
