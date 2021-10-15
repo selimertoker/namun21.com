@@ -289,32 +289,13 @@
 
 
 			<!-- Start Video Area -->
-			<!-- API for Youtube player -->
-			<script>
-				// Load the IFrame Player API code asynchronously.
-				var tag = document.createElement('script');
-				tag.src = "https://www.youtube.com/player_api";
-				var firstScriptTag = document.getElementsByTagName('script')[0];
-				firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-				// Replace the 'ytplayer' element with an <iframe> and
-				// YouTube player after the API code downloads.
-				var player;
-				function onYouTubePlayerAPIReady() {
-					player = new YT.Player('ytplayer', {
-						height: '360',
-						width: '640',
-						videoId: 'XjdC1bEFqno'
-					});
-				}
-			</script>
-			<!-- End API for Youtube player -->
 			<section class="video-area pt-40 pb-40">
 				<h3 onselectstart="return false" class="h2 text-white" style="text-align:center;">How to apply</h3>
 				<br><br><br>
 				<div class="container">
 					<div class="video-content">
-						<div id="ytplayer"></div>
+						<iframe width="640" height="360" src="https://www.youtube.com/embed/XjdC1bEFqno"></iframe>
+						<iframe width="640" height="360" src="https://www.youtube.com/embed/4yg_kjcprUI"></iframe>
 						<div class="video-desc">
 							<h4 onselectstart="return false" class="text-white">Join the World's Heartbeat</h4>
 						</div>
