@@ -137,7 +137,6 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #131939;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -184,7 +183,7 @@ h6, .h6 {
   text-align: center;
 }
 
-.goldcolor{
+.goldcolor {
   background: url(../img/elements/gold2.png)no-repeat top center;
   background-size: cover;
   -webkit-text-fill-color: transparent;
